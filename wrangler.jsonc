@@ -1,0 +1,21 @@
+{
+  "name": "claude-vs-codex",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-22",
+  "rules": [
+    {
+      "type": "Text",
+      "globs": [
+        "**/*.html"
+      ],
+      "fallthrough": true
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "claude-codex-community",
+      "database_id": "37a4d2ba-4052-4e21-8cb5-05fbf5f40fc0"
+    }
+  ]
+}
